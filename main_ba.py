@@ -54,8 +54,4 @@ with open("comments.txt", "r") as file:
 
 
 ## if not brand-activism
-process_text(text, "false", "files/patagonia.csv", "None", "CviDT4VxtWc")
-
-
-
-
+process_text(text, "true", "files/patagonia.csv", "Environmental", "CvfJSnmrDE-")
