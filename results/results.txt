@@ -1,0 +1,28 @@
+Validation Data:
+    XLM-Roberta Model:
+        Without Preprocessing: 74,05 %
+        With Lemmatization: 73.8 %
+    Roberta-Latest:
+        Without Preprocessing: 77.18 %
+        With Preprocessing: 76.6 %
+    Bertweet:
+        Without Preprocessing: 83.1%
+        With Preprocessing: 83.44%
+    Twitter-XLM Finetuned:
+        Without Preprocessing: 62.15%
+        With Preprocessing: 62.10 %
+
+
+Test Data:
+    XLM-Roberta Model:
+        Without Preprocessing: 67.28 % 
+        With Preprocessing: 67.85 %
+    Roberta-Latest:
+        Without Preprocessing: 
+        With Preprocessing: 
+    Bertweet:
+        Without Preprocessing: 71.9 %
+        With Preprocessing: 72.18 %
+    Twitter-XLM Finetuned:
+        Without Preprocessing: 
+        With Preprocessing: 63.96%
