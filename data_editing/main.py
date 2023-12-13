@@ -75,13 +75,21 @@ def process_text(input_text, is_activism, file_to_write, category, post_id):
             id_counter += 1
 
 
+import os
 ## read text from txt file
+# Bestimmen Sie das Verzeichnis, in dem sich dieses Skript befindet
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Setzen Sie das Arbeitsverzeichnis auf das Verzeichnis dieses Skripts
+os.chdir(current_dir)
+
+# Lesen Sie den Text aus der comments.txt-Datei im aktuellen Verzeichnis
 with open("comments.txt", "r") as file:
     text = file.read()
 
 
 ## if not brand-activism
-process_text(text, "false", "files/ups.csv", "None", "CwIdDE1s-Ce")
+process_text(text, "false", "../files/patagonia.csv", "None", "Cyvt_xjRNEP")
 
 
 

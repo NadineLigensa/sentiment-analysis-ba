@@ -74,11 +74,18 @@ def process_text(input_text, is_activism, file_to_write, category, post_id):
             # Inkrementiere die ID
             id_counter += 1
 
-
+import os
 ## read text from txt file
+# Bestimmen Sie das Verzeichnis, in dem sich dieses Skript befindet
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Setzen Sie das Arbeitsverzeichnis auf das Verzeichnis dieses Skripts
+os.chdir(current_dir)
+
+# Lesen Sie den Text aus der comments.txt-Datei im aktuellen Verzeichnis
 with open("comments.txt", "r") as file:
     text = file.read()
 
 
 ## if brand-activism
-process_text(text, "true", "files/ups.csv", "workplace", "CusEwArgnsF")
+process_text(text, "true", "../files/benandjerrys.csv", "social", "Ct37XwSNX2l")
