@@ -1,16 +1,19 @@
 Validation Data:
     XLM-Roberta Model:
-        Without Preprocessing: 74,05 %
-        With Lemmatization: 73.8 %
+        Recall: 77 %
+        Precision: 72 %
     Roberta-Latest:
-        Without Preprocessing: 77.18 %
-        With Preprocessing: 76.6 %
+        Recall: 77.18 %
+        Precision: 75 %
     Bertweet:
-        Without Preprocessing: 83.1%
-        With Preprocessing: 83.44%
-    Twitter-XLM Finetuned:
-        Without Preprocessing: 62.15%
-        With Preprocessing: 62.10 %
+        Recall: 83.1%
+        Precision: 83.44%
+    Distilbert-XLM Finetuned:
+        Recall: 84%
+        Precision: 83 %
+    Textblob:
+        Recall: 49 %
+        Precision: 49 %
 
 
 Test Data:
