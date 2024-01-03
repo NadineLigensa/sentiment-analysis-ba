@@ -1,5 +1,5 @@
 # sentiment-analysis-ba
-Proejtk für die Masterarbeit der Sentiment Analyse 
+Projekt für die Masterarbeit der Sentiment Analyse 
 
 
 ## Erklärungen
